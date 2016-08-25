@@ -1,0 +1,83 @@
+
+
+/*Author: http://www.binarytheme.com */
+
+/*=======================================
+    GENERAL STYLES
+==================================================*/
+body {
+         background-color:#ffffFF;
+          font-family:'Open Sans', sans-serif;
+    font-size:14px;
+}
+
+.nav a {
+    color:#ffffff !important;
+}
+.navbar-header a {
+    color:#ffffff !important;
+    padding-right:100px;
+}
+
+.text-center {
+    text-align:center;
+}
+
+
+.text-right {
+    text-align:right;
+}
+
+.top-pad {
+    padding-top:70px;
+}
+
+.text-left{
+	text-align:left;
+}
+
+.qcolor{
+	color:#8B008B;
+}
+
+.acolor{
+	color:#9400D3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Open Sans', sans-serif;
+}
+h1 {
+   
+    font-weight:700;
+    font-size:50px;
+    color:#800080; /* white color code */
+}
+
+h2 {
+   
+    font-weight:600;
+    font-size:30px;
+    color:#FF4500;
+}
+
+h3{
+    
+    font-weight:700;
+    font-size:20px;
+	color:#00008B;
+}
+h4{
+    
+    font-weight:400;
+    font-size:16px;
+	 color:#DC143C; /* white color code */
+}
+p {
+    font-weight:400;
+    line-height:29px;
+    padding-bottom:50px;
+    color:#2F4F4F;
+}
+
+

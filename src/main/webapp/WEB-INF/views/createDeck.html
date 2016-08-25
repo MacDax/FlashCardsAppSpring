@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>FC Login Success</title>
+<link href="/webapp/resources/css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="/webapp/resources/css/style.css" />
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="htttp://www.binarytheme.com">YOUR LOGO HERE</a>
+            </div>
+            <!-- Collect the nav links for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="home">Home</a>
+                    </li>
+                    <li><a href="createCardDeck">Create New Deck</a>
+                    </li>
+                    <li><a href="listDecks">List Decks</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+	
+	<div class="container">
+		 <div class="row top-pad">
+
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2  text-center">
+                <h1 > Dynamic FlashCards Application!   </h1>
+               
+            </div>
+
+                    <div class="row">
+                    <div class="col-md-4 col-sm-4 text-center">
+                <img class="img-circle" src="img/img1.jpg">
+                <h4>Welcome, <font color="blue">${fcusers.fname} ${fcusers.lname} </font></h4>
+               <h4></h4>
+             
+            </div>
+            
+            <form name="deckForm" action="" method="POST">
+		Set Title: <input type="TEXT" name="title" value=""> </font>&nbsp;&nbsp;&nbsp;
+		Editable : <input type="checkbox" name="editable" value=""> </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="submit" name="Register" value="Enter">
+		</form>
+         </div>
+		<div id="successMessage"></div>
+        </div>
+	</div>
+
+ <!--Core JavaScript file  -->
+    <script src="/webapp/resources/js/jquery-1.10.2.js"></script>
+    <!--bootstrap JavaScript file  -->
+    <script src="/webapp/resources/js/bootstrap.js"></script>
+    <script src="/webapp/resources/js/createdeck.js"></script>
+</body>
+</html>
